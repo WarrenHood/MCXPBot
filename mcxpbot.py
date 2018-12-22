@@ -142,10 +142,10 @@ pg.keyDown("a")
 lasttime = time.time()
 
 # Set up timers (Descriptions on right)
-ctime = 0				# Current time elpased (used to determine direction)
-clicktimer = 0			# A timer to determine when to hit
-xptimer = 0				# A timer to determine when to collect xp
-eattimer = 0			# A timer to determine when to eat
+ctime = 0               # Current time elpased (used to determine direction)
+clicktimer = 0          # A timer to determine when to hit
+xptimer = 0             # A timer to determine when to collect xp
+eattimer = 0            # A timer to determine when to eat
 
 # Begin the xp bot loop
 try:

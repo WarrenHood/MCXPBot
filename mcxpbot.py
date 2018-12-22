@@ -61,10 +61,10 @@ def collectXP():
 	# Stop moving right now... We are in middle(hopefully)
 	pg.keyUp("d")
 
-	# Alternate direction
+	# Initial direction is left
 	cdir = 0
 
-	# Slash 20 times, .4 sec/slash
+	# Clear spiders out from middle before collecting xp
 	for i in range(20):
 		
 		# If dir is 0 then go left
